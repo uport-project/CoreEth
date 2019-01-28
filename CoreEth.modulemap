@@ -1,0 +1,6 @@
+module CoreEth {
+    umbrella header "CoreEth.h"
+
+    export *
+    module * { export * }
+}
