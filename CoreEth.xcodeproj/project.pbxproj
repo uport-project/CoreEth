@@ -223,7 +223,6 @@
 			children = (
 				48735DB921F0CEB900904ED5 /* CoreEth.modulemap */,
 				48735DA121F0CB7B00904ED5 /* CoreEth */,
-				487BE2B621F615940066D134 /* CoreBitcoin */,
 				48735DAC21F0CB7B00904ED5 /* CoreEthTests */,
 				48735DA021F0CB7B00904ED5 /* Products */,
 				48DC3A1621F7C60D00DA5629 /* Frameworks */,
@@ -244,6 +243,7 @@
 			children = (
 				48735DA221F0CB7B00904ED5 /* CoreEth.h */,
 				48735DA321F0CB7B00904ED5 /* Info.plist */,
+				487BE2B621F615940066D134 /* CoreBitcoin */,
 			);
 			path = CoreEth;
 			sourceTree = "<group>";
