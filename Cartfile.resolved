@@ -1,1 +1,1 @@
-git "file:///Users/case/Projects/ConsenSys/repos/NEW/openssl" "82f547027db49d30f1cdd484e3dd951aecb406c0"
+github "uport-project/openssl" "v1.0.1e"

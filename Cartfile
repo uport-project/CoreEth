@@ -1,2 +1,1 @@
-git "file:///Users/case/Projects/ConsenSys/repos/NEW/openssl" "master"
-
+git "https://github.com/uport-project/openssl" ~> 1.0.1
