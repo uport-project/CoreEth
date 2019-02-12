@@ -14,8 +14,6 @@ FOUNDATION_EXPORT double CoreEthVersionNumber;
 //! Project version string for CoreEth.
 FOUNDATION_EXPORT const unsigned char CoreEthVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <CoreEth/PublicHeader.h>
-
 @import openssl;
 #import <CoreEth/BTCAddress.h>
 #import <CoreEth/BTCBase58.h>
