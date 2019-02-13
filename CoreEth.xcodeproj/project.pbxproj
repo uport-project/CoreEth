@@ -93,9 +93,9 @@
 		48735E5721F0D08300904ED5 /* BTCNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 48735E0621F0D08300904ED5 /* BTCNetwork.h */; };
 		48735E5821F0D08300904ED5 /* BTCScriptMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 48735E0721F0D08300904ED5 /* BTCScriptMachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48735E5921F0D08300904ED5 /* BTCTransactionInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 48735E0821F0D08300904ED5 /* BTCTransactionInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48735E5A21F0D08300904ED5 /* CoreBitcoin.h in Headers */ = {isa = PBXBuildFile; fileRef = 48735E0921F0D08300904ED5 /* CoreBitcoin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48735E5A21F0D08300904ED5 /* CoreBitcoin.h in Headers */ = {isa = PBXBuildFile; fileRef = 48735E0921F0D08300904ED5 /* CoreBitcoin.h */; };
 		48735E5B21F0D08300904ED5 /* BTCErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 48735E0A21F0D08300904ED5 /* BTCErrors.m */; };
-		48735E5C21F0D08300904ED5 /* NS+BTCBase58.h in Headers */ = {isa = PBXBuildFile; fileRef = 48735E0B21F0D08300904ED5 /* NS+BTCBase58.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48735E5C21F0D08300904ED5 /* NS+BTCBase58.h in Headers */ = {isa = PBXBuildFile; fileRef = 48735E0B21F0D08300904ED5 /* NS+BTCBase58.h */; };
 		48DC3EF021F880B900DA5629 /* openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DC3EEF21F880B900DA5629 /* openssl.framework */; };
 		48F4700021FF8EC0000C803F /* openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DC3EEF21F880B900DA5629 /* openssl.framework */; };
 /* End PBXBuildFile section */
