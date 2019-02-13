@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		485C20A72214284E006F3738 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C20A62214284E006F3738 /* AppDelegate.swift */; };
+		485C20A92214284E006F3738 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C20A82214284E006F3738 /* ViewController.swift */; };
+		485C20AC2214284E006F3738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485C20AA2214284E006F3738 /* Main.storyboard */; };
+		485C20AE2214284E006F3738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485C20AD2214284E006F3738 /* Assets.xcassets */; };
+		485C20B12214284E006F3738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485C20AF2214284E006F3738 /* LaunchScreen.storyboard */; };
 		48735DA921F0CB7B00904ED5 /* CoreEth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48735D9F21F0CB7B00904ED5 /* CoreEth.framework */; };
 		48735DAE21F0CB7B00904ED5 /* CoreEthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48735DAD21F0CB7B00904ED5 /* CoreEthTests.m */; };
 		48735DB021F0CB7B00904ED5 /* CoreEth.h in Headers */ = {isa = PBXBuildFile; fileRef = 48735DA221F0CB7B00904ED5 /* CoreEth.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -96,6 +101,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		485C20B622142861006F3738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48735D9621F0CB7B00904ED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485C20A32214284D006F3738;
+			remoteInfo = TestingHostApp;
+		};
 		48735DAA21F0CB7B00904ED5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 48735D9621F0CB7B00904ED5 /* Project object */;
@@ -106,6 +118,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		485C20A42214284D006F3738 /* TestingHostApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingHostApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		485C20A62214284E006F3738 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		485C20A82214284E006F3738 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		485C20AB2214284E006F3738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		485C20AD2214284E006F3738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		485C20B02214284E006F3738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		485C20B22214284E006F3738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48735D9F21F0CB7B00904ED5 /* CoreEth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreEth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48735DA221F0CB7B00904ED5 /* CoreEth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreEth.h; sourceTree = "<group>"; };
 		48735DA321F0CB7B00904ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -198,6 +217,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		485C20A12214284D006F3738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48735D9C21F0CB7B00904ED5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,12 +244,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		485C20A52214284E006F3738 /* TestingHostApp */ = {
+			isa = PBXGroup;
+			children = (
+				485C20A62214284E006F3738 /* AppDelegate.swift */,
+				485C20A82214284E006F3738 /* ViewController.swift */,
+				485C20AA2214284E006F3738 /* Main.storyboard */,
+				485C20AD2214284E006F3738 /* Assets.xcassets */,
+				485C20AF2214284E006F3738 /* LaunchScreen.storyboard */,
+				485C20B22214284E006F3738 /* Info.plist */,
+			);
+			path = TestingHostApp;
+			sourceTree = "<group>";
+		};
 		48735D9521F0CB7B00904ED5 = {
 			isa = PBXGroup;
 			children = (
 				48735DB921F0CEB900904ED5 /* CoreEth.modulemap */,
 				48735DA121F0CB7B00904ED5 /* CoreEth */,
 				48735DAC21F0CB7B00904ED5 /* CoreEthTests */,
+				485C20A52214284E006F3738 /* TestingHostApp */,
 				48735DA021F0CB7B00904ED5 /* Products */,
 				48DC3A1621F7C60D00DA5629 /* Frameworks */,
 			);
@@ -234,6 +274,7 @@
 			children = (
 				48735D9F21F0CB7B00904ED5 /* CoreEth.framework */,
 				48735DA821F0CB7B00904ED5 /* CoreEthTests.xctest */,
+				485C20A42214284D006F3738 /* TestingHostApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -451,6 +492,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		485C20A32214284D006F3738 /* TestingHostApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485C20B52214284E006F3738 /* Build configuration list for PBXNativeTarget "TestingHostApp" */;
+			buildPhases = (
+				485C20A02214284D006F3738 /* Sources */,
+				485C20A12214284D006F3738 /* Frameworks */,
+				485C20A22214284D006F3738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestingHostApp;
+			productName = TestingHostApp;
+			productReference = 485C20A42214284D006F3738 /* TestingHostApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 		48735D9E21F0CB7B00904ED5 /* CoreEth */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48735DB321F0CB7B00904ED5 /* Build configuration list for PBXNativeTarget "CoreEth" */;
@@ -481,6 +539,7 @@
 			);
 			dependencies = (
 				48735DAB21F0CB7B00904ED5 /* PBXTargetDependency */,
+				485C20B722142861006F3738 /* PBXTargetDependency */,
 			);
 			name = CoreEthTests;
 			productName = CoreEthTests;
@@ -493,14 +552,19 @@
 		48735D9621F0CB7B00904ED5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = ConsenSys;
 				TargetAttributes = {
+					485C20A32214284D006F3738 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					48735D9E21F0CB7B00904ED5 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 					48735DA721F0CB7B00904ED5 = {
 						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 485C20A32214284D006F3738;
 					};
 				};
 			};
@@ -510,6 +574,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 48735D9521F0CB7B00904ED5;
 			productRefGroup = 48735DA021F0CB7B00904ED5 /* Products */;
@@ -518,11 +583,22 @@
 			targets = (
 				48735D9E21F0CB7B00904ED5 /* CoreEth */,
 				48735DA721F0CB7B00904ED5 /* CoreEthTests */,
+				485C20A32214284D006F3738 /* TestingHostApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		485C20A22214284D006F3738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485C20B12214284E006F3738 /* LaunchScreen.storyboard in Resources */,
+				485C20AE2214284E006F3738 /* Assets.xcassets in Resources */,
+				485C20AC2214284E006F3738 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48735D9D21F0CB7B00904ED5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -540,6 +616,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		485C20A02214284D006F3738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485C20A92214284E006F3738 /* ViewController.swift in Sources */,
+				485C20A72214284E006F3738 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48735D9B21F0CB7B00904ED5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -595,6 +680,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		485C20B722142861006F3738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 485C20A32214284D006F3738 /* TestingHostApp */;
+			targetProxy = 485C20B622142861006F3738 /* PBXContainerItemProxy */;
+		};
 		48735DAB21F0CB7B00904ED5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 48735D9E21F0CB7B00904ED5 /* CoreEth */;
@@ -602,7 +692,66 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		485C20AA2214284E006F3738 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485C20AB2214284E006F3738 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		485C20AF2214284E006F3738 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485C20B02214284E006F3738 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		485C20B32214284E006F3738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestingHostApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.consensys.TestingHostApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		485C20B42214284E006F3738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestingHostApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.consensys.TestingHostApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		48735DB121F0CB7B00904ED5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -806,6 +955,7 @@
 		48735DB721F0CB7B00904ED5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -822,12 +972,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = consensys.net.CoreEthTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestingHostApp.app/TestingHostApp";
 			};
 			name = Debug;
 		};
 		48735DB821F0CB7B00904ED5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -844,12 +996,22 @@
 				PRODUCT_BUNDLE_IDENTIFIER = consensys.net.CoreEthTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestingHostApp.app/TestingHostApp";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		485C20B52214284E006F3738 /* Build configuration list for PBXNativeTarget "TestingHostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485C20B32214284E006F3738 /* Debug */,
+				485C20B42214284E006F3738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		48735D9921F0CB7B00904ED5 /* Build configuration list for PBXProject "CoreEth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
