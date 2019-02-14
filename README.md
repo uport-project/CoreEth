@@ -8,4 +8,4 @@ This repository has been renamed from CoreEth to uport-ios-core-eth.
 
 ## License
 
-This repository comes with the same [licence](LICENSE.txt) as the original CoreEthereum repository.
+This repository is under the same [WTFPL](http://www.wtfpl.net) [licence](LICENSE.txt) as the original CoreEthereum repository.
